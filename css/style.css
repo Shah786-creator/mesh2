@@ -1,0 +1,59 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	margin: 0;
+	font-family: arial;
+    background-image: url(bg.jpg);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block-row{
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: darken;
+	font-size: 20px;
+	color: #fff;
+}
+.block-row h2{
+	font-size: 40px;
+	font-weight: 400;
+}
+
+#particles-js{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+.acrdion{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+footer{
+      margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.footer_content{
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
